@@ -38,8 +38,11 @@
 
 
                  // set am pm
-            if(h >= 12 ){
+             if(h > 12 ){
                 h = h - 12;
+                ampm = "PM";
+            }else if(h == 12){
+                h = 12;
                 ampm = "PM";
             }
         
