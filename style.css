@@ -59,7 +59,7 @@ body{
     font-family: 'Roboto Slab', serif;
 
     font-size: 1.5rem;
-    font-weight: 7700;
+    font-weight: 700;
 }
 
 #clock{
@@ -215,4 +215,46 @@ h1{
     justify-content: flex-start;
     align-items: flex-start;
     margin: 6px auto;
+}
+
+
+/* Media  */
+@media(max-width:586px){
+
+    .container{
+        width: 330px;
+        height: 500px;
+    
+    }
+
+    #clock{
+        font-size: 1.2rem;
+        
+    
+    }
+
+
+    .date{
+       
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+
+    .alarmList{
+        height: 170px ;
+        overflow: scroll;
+    }
+
+    .alarmLog{
+        font-size: 1.1rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 6px auto;
+    }
+
 }
